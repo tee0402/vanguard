@@ -1,0 +1,76 @@
+#topMenu {
+  background-color: #e5e5e5;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+#logoMenu {
+  box-shadow: none;
+  border: none;
+  margin: -10px 0;
+}
+
+#searchBox {
+  width: 250px;
+  border-radius: 0;
+  background-color: #e5e5e5;
+}
+
+#searchButton {
+  background-color: white;
+}
+
+#middleMenu {
+  background-color: #96151d;
+  box-shadow: none;
+  border: none;
+  height: 50px;
+  border-radius: 0;
+}
+
+#middleMenu .ui.item {
+  color: white;
+}
+
+.contain {
+  position: relative;
+  color: white;
+}
+
+.ui.fluid.image {
+  margin-top: -50px;
+  z-index: -1;
+}
+
+.imageText {
+  font-size: 50px;
+  line-height: 60px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+
+.imageSubText {
+  font-size: 19px;
+  line-height: 22px;
+  position: absolute;
+  top: 40%;
+  left: 26%;
+  transform: translate(-25%, -25%);
+}
+
+.imageLink {
+  font-size: 19px;
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 24%;
+  transform: translate(-23%, -25%);
+}
+
+.imageLink:hover {
+  color: white;
+  text-decoration: underline;
+}
